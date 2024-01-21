@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustang</title>
+    <link rel="shortcut icon" href="./images/logo2.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    
+  </head>
+  <body>
+    <div id="nav">
+      <div id="navleft">
+        <img src="./images/logo.png" width="106" height="83" alt="" />
+        <img src="./images/logo2.png" width="83" height="83" alt="" />
+      </div>
+      <div id="navright">
+        <div id="links">
+          <a href="#">About</a>
+          <a href="#">Features</a>
+          <a href="#">Contact</a>
+        </div>
+        <div id="icons">
+          <i class="ri-menu-line"></i>
+          <i class="ri-shopping-cart-line"></i>
+        </div>
+      </div>
+    </div>
+    <div id="cursor"></div>
+    <div id="main">
+      <div id="page1">
+        <h1>Ford</h1>
+        <h1>Mustang</h1>
+        <div id="videoContainer">
+          <div id="play">Play</div>
+          <video autoplay loop muted src="./video.mp4"></video>
+        </div>
+      </div>
+      <div id="page2">
+        <div id="element1" class="element">
+          <img
+            data-scroll
+            data-scroll-speed="1"
+            src="./images/image1.jpg"
+            alt="img1"
+          />
+          <div data-scroll data-scroll-speed="-2" class="tabs"></div>
+        </div>
+        <div id="element2" class="element">
+          <img
+            data-scroll
+            data-scroll-speed="1"
+            src="./images/image2.jpg"
+            alt="img2"
+          />
+          <div data-scroll data-scroll-speed="-2" class="tabs"></div>
+        </div>
+        <div id="element3" class="element">
+          <img
+            data-scroll
+            data-scroll-speed="1"
+            src="./images/image3.jpg"
+            alt="img3"
+          />
+          <div data-scroll data-scroll-speed="-2" class="tabs"></div>
+        </div>
+      </div>
+      <div id="page3">
+        <div class="child" id="child1">
+          <img src="./images/alloy.png" alt="" />
+        </div>
+        <div class="child" id="child2">
+          <img src="./images/exaust.png" alt="" />
+        </div>
+        <div class="child" id="child3">
+          <img src="./images/lamp.png" alt="" />
+        </div>
+        <div class="child" id="child4">
+          <img src="./images/turbo.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
